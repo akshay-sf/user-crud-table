@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "first_name": "Leanne",
+        "middle_name": "",
+        "last_name": "Graham",
+        "email": "Sincere@april.biz",
+        "phone": "1-770-736-8031 x56442",
+        "role": "Admin",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874"
+        }
+    },
+    {
+        "id": 2,
+        "first_name": "Ervin",
+        "middle_name": "",
+        "last_name": "Howell",
+        "email": "Shanna@melissa.tv",
+        "phone": "010-692-6593 x09125",
+        "role": "Admin",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771"
+        }
+    },
+    {
+        "id": 3,
+        "first_name": "Clementine",
+        "middle_name": "",
+        "last_name": "Bauch",
+        "email": "Nathan@yesenia.net",
+        "phone": "1-463-123-4447",
+        "role": "Admin",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157"
+        }
+    },
+    {
+        "id": 4,
+        "first_name": "Patricia",
+        "middle_name": "",
+        "last_name": "Lebsack",
+        "email": "Julianne.OConner@kory.org",
+        "phone": "493-170-9623 x156",
+        "role": "Admin",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257"
+        }
+    },
+    {
+        "id": 5,
+        "first_name": "Chelsey",
+        "middle_name": "",
+        "last_name": "Dietrich",
+        "email": "Lucio_Hettinger@annie.ca",
+        "phone": "(254)954-1289",
+        "role": "Admin",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263"
+        }
+    },
+    {
+        "id": 6,
+        "first_name": "Dennis",
+        "middle_name": "",
+        "last_name": "Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "phone": "1-477-935-8478 x6430",
+        "role": "Admin",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337"
+        }
+    },
+    {
+        "id": 7,
+        "first_name": "Kurtis",
+        "middle_name": "",
+        "last_name": "Weissnat",
+        "email": "Telly.Hoeger@billy.biz",
+        "phone": "210.067.6132",
+        "role": "Admin",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099"
+        }
+    },
+    {
+        "id": 8,
+        "first_name": "Nicholas",
+        "middle_name": "",
+        "last_name": "Runolfsdottir V",
+        "email": "Sherwood@rosamond.me",
+        "phone": "586.493.6943 x140",
+        "role": "Admin",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169"
+        }
+    },
+    {
+        "id": 9,
+        "first_name": "Glenna",
+        "middle_name": "",
+        "last_name": "Reichert",
+        "email": "Chaim_McDermott@dana.io",
+        "phone": "(775)976-6794 x41206",
+        "role": "Admin",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109"
+        }
+    },
+    {
+        "id": 10,
+        "first_name": "Clementina",
+        "middle_name": "",
+        "last_name": "DuBuque",
+        "email": "Rey.Padberg@karina.biz",
+        "phone": "024-648-3804",
+        "role": "Admin",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261"
+        }
+    }
+]
