@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <title>Add/Edit User</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="javascript:void(0)">User CRUD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="./index.html">Home</a>
+                    <a class="nav-item nav-link active" href="./add-edit.html">Add User</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4" style="width: 500px">
+        <form id="user-form" onsubmit="onSubmit(event)">
+            <div class="form-group">
+                <label>Name</label>
+                <div class="d-flex">
+                    <input onchange="setValue(event)" required type="text" class="form-control m-1" placeholder="First Name" name="first_name" id="first_name">
+                    <input onchange="setValue(event)" type="text" class="form-control m-1" placeholder="Middle Name" name="middle_name" id="middle_name">
+                    <input onchange="setValue(event)" type="text" class="form-control m-1" placeholder="Last Name" name="last_name" id="last_name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Email address</label>
+                <input onchange="setValue(event)" required type="email" class="form-control" placeholder="Email" name="email" id="email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label>Phone & Role</label>
+                <div class="d-flex">
+                    <input onchange="setValue(event)" required type="number" class="form-control m-1" placeholder="Phone" name="phone" id="phone">
+                    <input onchange="setValue(event)" required type="text" class="form-control m-1" placeholder="Role" name="role" id="role">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <textarea onchange="setValue(event)" required type="text" class="form-control" placeholder="Address" name="address" id="address"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="float: right">Submit</button>
+        </form>
+    </div>
+    <!-- Modal -->
+    <div id="modal"></div>
+    <script src="./public/js/jquery-3.4.1.min.js"></script>
+    <script src="./public/js/popper.min.js"></script>
+    <script src="./public/js/bootstrap.min.js"></script>
+    <script type="module" src="./public/js/add-edit.js"></script>
+</body>
+</html>
